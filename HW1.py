@@ -13,8 +13,8 @@ PI = math.pi
 RHO = 1.2 # kg/m^(3)
 
 radius_of_turbine_blades = 3.0 #m, radius of a cross section of a turbine
-average_wind_speed = 12.29 #m/s
-operational_efficiency = .10 #percent
+average_wind_speed = 3.68808 #m/s
+operational_efficiency = .1 #percent
 cross_sectional_area= PI*(radius_of_turbine_blades**2) #m^(2)
 print(cross_sectional_area)
 max_power= 0.5*RHO*cross_sectional_area*(average_wind_speed**3) #W, max power of a turbine
